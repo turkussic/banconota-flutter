@@ -1,0 +1,5 @@
+include: package:code_style/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - lib/generated

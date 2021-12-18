@@ -1,0 +1,8 @@
+ext {
+    extProperties = [
+            applicationId: 'com.banconota.app',
+            applicationName: 'Banconota',
+            minSdkVersion: 21,
+            targetSdkVersion: 30
+    ]
+}
