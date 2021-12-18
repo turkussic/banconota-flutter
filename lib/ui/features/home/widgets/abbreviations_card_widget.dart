@@ -52,7 +52,7 @@ class _AbbreviationsCardWidgetState extends State<AbbreviationsCardWidget> {
         bottom: 24.0,
       ),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(18.0),
+        borderRadius: BorderRadius.circular(10.0),
         color: widget.backgroundColor,
       ),
       child: Padding(
@@ -77,14 +77,14 @@ class _AbbreviationsCardWidgetState extends State<AbbreviationsCardWidget> {
                       ),
                       Container(
                         decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(18.0),
+                          borderRadius: BorderRadius.circular(10.0),
                           color: Attributes.backgroundColor,
                         ),
                         width: dimensions.fullWidth - 100,
                         child: DropdownButtonFormField<String>(
                           decoration: InputDecoration(
                             border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(18.0),
+                              borderRadius: BorderRadius.circular(10.0),
                             ),
                           ),
                           value: widget.initialValue.toString(),

@@ -110,14 +110,14 @@ class _HomeScreenState extends State<HomeScreen> {
                           color: Attributes.tertiaryColor,
                           width: 2.0,
                         ),
-                        borderRadius: BorderRadius.circular(18.0),
+                        borderRadius: BorderRadius.circular(10.0),
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
                           color: Attributes.secondaryColor,
                           width: 2.0,
                         ),
-                        borderRadius: BorderRadius.circular(18.0),
+                        borderRadius: BorderRadius.circular(10.0),
                       ),
                       hintText: s.moneySum,
                     ),

@@ -60,7 +60,7 @@ class _CostsMenuWidgetState extends State<CostsMenuWidget> {
             children: [
               Container(
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(18.0),
+                  borderRadius: BorderRadius.circular(10.0),
                   color: Attributes.backgroundColor,
                 ),
                 width: dimensions.fullWidth * 0.4,
@@ -68,7 +68,7 @@ class _CostsMenuWidgetState extends State<CostsMenuWidget> {
                 child: DropdownButtonFormField<String>(
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(18.0),
+                      borderRadius: BorderRadius.circular(10.0),
                     ),
                   ),
                   value: widget.initialValue,
@@ -142,6 +142,7 @@ class _CostsMenuWidgetState extends State<CostsMenuWidget> {
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
+                                  Container(),
                                   Container(
                                     padding: EdgeInsets.all(24.0),
                                     child: Column(
@@ -201,6 +202,17 @@ class _CostsMenuWidgetState extends State<CostsMenuWidget> {
                                           ],
                                         ),
                                         SizedBox(
+                                          height: 12.0,
+                                        ),
+                                        Row(
+                                          children: [
+                                            Text(
+                                              s.feesPayer(payer),
+                                              style: textStyle.popupFeesPayer,
+                                            ),
+                                          ],
+                                        ),
+                                        SizedBox(
                                           height: 24.0,
                                         ),
                                         Row(
@@ -216,13 +228,6 @@ class _CostsMenuWidgetState extends State<CostsMenuWidget> {
                                                   textStyle.popupReceiveGreen,
                                             ),
                                           ],
-                                        ),
-                                        SizedBox(
-                                          height: 12.0,
-                                        ),
-                                        Text(
-                                          s.feesPayer(payer),
-                                          style: textStyle.popupFeesPayer,
                                         ),
                                       ],
                                     ),

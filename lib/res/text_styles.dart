@@ -13,21 +13,21 @@ class TextStyles {
   TextTheme get _theme => Theme.of(_context).textTheme;
 
   TextStyle get buttonText => TextStyle(
-        fontSize: 18.0,
+        fontSize: 16.0,
         color: Attributes.backgroundColor,
         fontFamily: 'Aventa-Regular',
         fontWeight: FontWeight.w800,
       );
 
   TextStyle get cardTitle => TextStyle(
-        fontSize: 16.0,
+        fontSize: 14.0,
         color: Attributes.backgroundColor,
         fontFamily: 'Aventa-Regular',
         fontWeight: FontWeight.w600,
       );
 
   TextStyle get cardTitleInverted => TextStyle(
-        fontSize: 16.0,
+        fontSize: 14.0,
         color: Attributes.primaryTextColor,
         fontFamily: 'Aventa-Regular',
         fontWeight: FontWeight.w600,
@@ -45,42 +45,42 @@ class TextStyles {
       );
 
   TextStyle get popupTitle => TextStyle(
-        fontSize: 24.0,
+        fontSize: 22.0,
         color: Attributes.primaryTextColor,
         fontFamily: 'Aventa-Regular',
         fontWeight: FontWeight.w800,
       );
 
   TextStyle get popupFees => TextStyle(
-        fontSize: 18.0,
+        fontSize: 16.0,
         color: Attributes.primaryTextColor,
         fontFamily: 'Aventa-Regular',
         fontWeight: FontWeight.w800,
       );
 
   TextStyle get popupFeesRed => TextStyle(
-        fontSize: 18.0,
+        fontSize: 16.0,
         color: Colors.redAccent,
         fontFamily: 'Aventa-Regular',
         fontWeight: FontWeight.w800,
       );
 
   TextStyle get popupReceive => TextStyle(
-        fontSize: 24.0,
+        fontSize: 22.0,
         color: Attributes.primaryTextColor,
         fontFamily: 'Aventa-Regular',
         fontWeight: FontWeight.w800,
       );
 
   TextStyle get popupReceiveGreen => TextStyle(
-        fontSize: 24.0,
+        fontSize: 22.0,
         color: Colors.green,
         fontFamily: 'Aventa-Regular',
         fontWeight: FontWeight.w800,
       );
 
   TextStyle get popupFeesPayer => TextStyle(
-        fontSize: 12.0,
+        fontSize: 10.0,
         color: Colors.redAccent,
         fontFamily: 'Aventa-Regular',
         fontWeight: FontWeight.w800,
